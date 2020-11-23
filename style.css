@@ -1,0 +1,181 @@
+*{
+    padding :0%;
+    margin :0%;
+}
+body{
+   
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:20% 30% 35% ;
+    max-width: auto;
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+    color : black;
+   }
+
+a:hover{
+    color:blue;
+    text-decoration: underline;
+
+}
+section{
+    border:  white;
+    border-radius: 10px 100px / 120px;
+    }
+
+nav{
+    grid-column: 1/5;
+    grid-row: 1/2;
+    background-color: rgb(214, 162, 194);
+    border-radius: 2em;
+    text-align: right;
+    height: 100px;
+    margin-top: 10px;
+}
+
+#home{ 
+    grid-column: 1/5 ;
+    grid-row : 2/4;
+    background-color: rgb(154, 161, 240);
+    padding-top:  50px;   
+    margin-bottom: 10px;      
+}
+
+#who{
+    grid-column:1;
+    grid-row: 4/5;
+    background-color :rgb(233, 233, 126);
+    padding: 20px;
+}
+
+#project{
+    grid-column:2;
+    grid-row: 4/5 ;
+    background-color:#53ee8f;
+    padding: 20px;
+}
+#contact{
+    grid-column:3;
+    grid-row: 4/5 ;
+    background-color: coral;
+    padding: 20px;
+}
+#hobbies{
+    grid-column:4;
+    grid-row:4/5;
+    background-color: rgb(218, 112, 186);
+    padding: 20px;
+}
+
+form{ 
+    grid-column: 2/4;
+    grid-row: 2/4;
+    height: auto;
+    width : 600px;
+    background-color: rgb(175, 99, 159);    
+    padding: 2em;
+    border: 1px solid rgb(177, 56, 56);
+    border-radius: 1em;
+    font-size: 18px;
+}
+button{
+    font-size: 15px;
+    position: relative;
+    
+}
+label {
+    /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  
+  input, textarea {
+    /* Pour s'assurer que tous les champs texte ont la même police.
+       Par défaut, les textarea ont une police monospace */
+    font: 1em sans-serif;
+  
+    /* Pour que tous les champs texte aient la même dimension */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Pour harmoniser le look & feel des bordures des champs texte */
+    border: 1px solid #999;
+    border-radius: 1em;
+
+  }
+  input{
+      line-height: 30px;
+  }
+  textarea{
+      line-height: 40px;
+      vertical-align: top;
+  }
+
+#menu{
+    display:inline-block
+    
+}
+ul li {
+    font-size: 20px;
+    text-align: right;
+    list-style-type: none;}
+    
+    ul#menu li {
+        margin: 35px 10px 10px 20px;
+        display: inline-block;
+    }
+    #picture1{
+        grid-row: 2;
+        grid-column:2;
+        padding:10px 10px 10px 10px;
+      }
+  #picture2{
+    grid-row: 3;
+    grid-column: 2;
+    padding:10px 10px 10px 10px;
+}
+#picture3{
+    grid-row: 2;
+    grid-column: 3;
+    padding:10px 10px 10px 10px;
+
+    }
+
+#picture4{
+    grid-row: 3;
+    grid-column:3;
+    padding:10px 10px 10px 10px;
+    
+}
+h2{
+    text-align:center
+}
+
+.littlelinks{
+     color: blue;
+    text-decoration: underline;
+    text-decoration-color: blue;
+  }
+  #portrait{
+      margin: 30px;
+     
+  }
+  #CV{
+      display: inline;
+      margin:30px;
+  }
