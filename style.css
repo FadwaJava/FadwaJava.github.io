@@ -82,7 +82,7 @@ nav{
 
 form{ 
     grid-column: 2/4;
-    grid-row: 2/4;
+    grid-row: 3/4;
     height: auto;
     width : 600px;
     background-color: rgb(175, 99, 159);    
