@@ -2,6 +2,15 @@
     padding :0%;
     margin :0%;
 }
+#hobbiespage{
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:15% 1fr 1fr 1fr;
+    max-width: auto;
+    height: 100%;
+
+}
 body{
    
     border-radius: 30px;
@@ -81,10 +90,11 @@ nav{
 }
 
 form{ 
+    margin: 50px;
     grid-column: 2/4;
-    grid-row: 3/4;
-    height: auto;
-    width : 600px;
+    grid-row: 2/4;
+    height: 200px;
+    width : 500px;
     background-color: rgb(175, 99, 159);    
     padding: 2em;
     border: 1px solid rgb(177, 56, 56);
@@ -94,6 +104,7 @@ form{
 button{
     font-size: 15px;
     position: relative;
+    margin-top: 10px;
     
 }
 label {
@@ -110,7 +121,7 @@ label {
     font: 1em sans-serif;
   
     /* Pour que tous les champs texte aient la même dimension */
-    width: 300px;
+    width: 400px;
     box-sizing: border-box;
   
     /* Pour harmoniser le look & feel des bordures des champs texte */
@@ -119,7 +130,8 @@ label {
 
   }
   input{
-      line-height: 30px;
+      line-height: 35px;
+    
   }
   textarea{
       line-height: 40px;
@@ -130,7 +142,10 @@ label {
     display:inline-block
     
 }
-ul li {
+ul li{
+    
+}
+nav ul li {
     font-size: 20px;
     text-align: right;
     list-style-type: none;}
@@ -139,24 +154,24 @@ ul li {
         margin: 35px 10px 10px 20px;
         display: inline-block;
     }
-    #picture1{
+    #picture1,#Ervaring{
         grid-row: 2;
         grid-column:2;
         padding:10px 10px 10px 10px;
       }
-  #picture2{
+  #picture2,#opleiding{
     grid-row: 3;
     grid-column: 2;
     padding:10px 10px 10px 10px;
 }
-#picture3{
+#picture3,#TechnischeCompetenties{
     grid-row: 2;
     grid-column: 3;
     padding:10px 10px 10px 10px;
 
     }
 
-#picture4{
+#picture4, #SocialeCompetenties{
     grid-row: 3;
     grid-column:3;
     padding:10px 10px 10px 10px;
@@ -172,7 +187,9 @@ h2{
     text-decoration-color: blue;
   }
   #portrait{
-      margin: 30px;
+      margin: 10px;
+      grid-row:2/4;
+      grid-column: 4;
      
   }
   #CV{
