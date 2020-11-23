@@ -145,6 +145,8 @@ label {
 }
 ul li{
     margin: 20px 10px 10px 20px;
+    text-align: left;
+    font:initial;
 
 }
 nav ul li {
@@ -233,4 +235,8 @@ h2{
         background-color:rgb(204, 162, 171);
         padding: 20px;
         margin-top:50px;
+}
+#git{
+    grid-column: 3/4;
+    grid-row: 4;
 }
