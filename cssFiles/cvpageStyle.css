@@ -1,11 +1,19 @@
+*{
+    padding :0%;
+    margin :0%;
+}
+html{
+    max-width: 100%;
+    height:100%;
+}
 body{
    
     border-radius: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows:20% 30% 35% ;
+    grid-template-rows:15% 1fr 1fr 1fr;
     max-width: auto;
-    height: 100%;
+    height:100% ;
 }
 
 nav{
@@ -49,28 +57,31 @@ ul li{
         }
 
     #portrait{
-        margin: 10px;
+        margin-top: 50px;
+        margin-left:10px;
+        margin-right:10px;
         grid-row:2/4;
         grid-column: 4;
-        border-radius: 2em;;
+    
        
     }
     
-    #Opleiding{
+    #Ervaring{
       grid-column:1;
       grid-row: 2/5;
       background-color:rgb(204, 162, 171);
       margin:10px;
       padding: 20px;
+      height: 600px;
   
   }
-  #Ervaring{
+  #Opleiding{
           grid-column:2;
           grid-row: 2/5 ;
           background-color:#997897;
           padding: 20px;
           margin:10px;
-          height:450px;
+          height:350px;
   
   }
   #SocialeCompetenties{
@@ -79,19 +90,22 @@ ul li{
           background-color:rgb(204, 162, 171);
           padding: 20px;
           margin:10px;
-          height: 300px;
+          height: 350px;
   }
   #TechnischeCompetenties{
       grid-column:3;
           grid-row: 3/5 ;
           background-color:#997897;
           padding: 20px;
-          margin-top:100px;
+          margin-left: 10px;
+          height: 200px;
+    
   }
   #Talen{
-      grid-column:3;
+      grid-column:2;
           grid-row: 3/5 ;
           background-color:rgb(204, 162, 171);
           padding: 20px;
-          margin-top:50px;
+          height: 200px;
+
   }
